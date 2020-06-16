@@ -1,0 +1,37 @@
+Como funciona?
+ 
+ - Fluxo de requisição e resposta:
+  - requisição feita por um cliente;
+  - resposta retornada atrás de uma estrutura de dados;
+  - cliente recebe resposta e processa resultado;
+
+ - As rotas utilizam os métodos HTTP:
+  - GET (buscar): http://minhaapi.com/{resource} | http://minhaapi.com/{resource}/{id}
+  - POST (salvar): http://minhaapi.com/{resource}
+  - PUT (atualizar): http://minhaapi.com/{resource}{id}
+  - DELETE (remover): http://minhaapi.com/{resource}/{id}
+
+ - Benefícios:
+  - Múltiplos clientes (front-end), mesmo back-end;
+  - Protocolo de comunicação padronizado:
+   - mesma estrutura para web / mobile / API pública;
+   - comunicação com serviçoes externos;
+
+ - Conteúdo da requisição:
+  - GET: http://minhaapi.com/company/{routeParam}/?{queryParam}={param}
+  - POST/PUT: podem possuir body
+
+ - HTTP codes:
+  - 1xx: Informational
+  - 2xx: Sucess:
+    - 200: SUCESS
+    - 201: CREATED
+  - 3xx: Redirection
+    - 301: MOVED PERMANENTLY
+    - 302: MOVED
+  - 4xx: Client Error
+    - 400: BAD REQUES
+    - 401: UNAUTHORIZED
+    - 404: NOT FOUND
+  - 5xx: Server Error
+    - 500: INTERNAL SERVER ERROR

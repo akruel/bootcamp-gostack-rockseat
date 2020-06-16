@@ -1,0 +1,48 @@
+O que é Node.js?
+
+Javascript no backend;
+ - Não lidamos com eventos do usuário final;
+ - Rotas e integrações; 
+ 
+- Plataforma (não é linguagem);
+- Construída em cima da V8 (motor do Chrome);
+- "Comparável" a PHP / Ruby / Python / Go (Linguages backend);
+
+O que é/para que serve o NPM?
+
+- Instalar bibliotecas de terceiros;
+- Fornecer bibliotecas para terceiros;
+
+Por que utilizaremos o Yarn?
+
+- Mais rápido;
+- Mais avançado;
+
+Características do Node:
+ - Arquitetura Event-loop:
+  - Baseada em eventos;
+  - Possui uma Call Stack (pilha de eventos);
+ 
+ - Single-thread:
+  - C++ por trás com libuv;
+  - Background threads;
+ 
+ - Non-blocking I/O (Input/Output):
+  - Conexão em tempo real;
+
+Middleware:
+ - Interceptador de requisições:
+  - pode interromper totalmente a requisição;
+  - pode alterar dados da requisição;
+
+
+Frameworks:
+ - ExpressJS como base:
+  - Sem opinião (sem estrutura fechada);
+  - Ótimo para iniciar;
+  - Bastante utilizado em Micro-serviços;
+ 
+ Frameworks opinados:
+ - AdonisJS;
+ - NestJS
+
