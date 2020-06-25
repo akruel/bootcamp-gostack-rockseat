@@ -1,0 +1,30 @@
+O que é React? 
+
+  - Biblioteca para construção de interfaces;
+  - Utilizado para construção de Single-Page-Applications (SPA's);
+  - Programação declarativa;
+
+  - Podemos chamar de Framework?
+    - É uma lib;
+    - Porém, ao se referir a todo ecossistema, pode se chamar de Framework sim;
+  - Tudo fica dentro do Javascript;
+
+  - Nomenclaturas:
+    - React: A lib (biblioteca) em si;
+    - ReactJS: Comportamento no Browser (React com ReactDOM);
+    - React Native (React com biblioteca de elementos nativos);
+
+Vantages do React:
+  
+  - Organização do código:
+    - Componentização:
+      - Forma fácil de visualização de um componente: 
+        se for possível retirar uma parte da aplicação e a aplicação continuar funcionando,
+        então eu sei que ele pode ser um componente.
+    
+Divisão de responsabilidades:
+  - Back-end: Regra de negócio;
+  - Front-end: Interface;
+
+Uma API, múltiplos clientes:
+  - WEB e Mobile;

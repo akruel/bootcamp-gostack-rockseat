@@ -1,11 +1,24 @@
 const express = require('express');
 const { uuid, isUuid } = require('uuidv4');
+const cors = require('cors');
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
-const projects = [];
+const projects = [
+  {
+    id: '752b8525-8b5e-41cf-95b9-bb7bc9918874',
+    title: 'Mobile com React Native',
+    owner: 'Anderson Kruel',
+  },
+  {
+    id: '5b9cc402-8b16-44fb-a0fb-3cc4d839f484',
+    title: 'Front-end com ReactJS',
+    owner: 'Anderson Kruel',
+  },
+];
 
 function logRequests(request, response, next) {
   const { method, url } = request;
